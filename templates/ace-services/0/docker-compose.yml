@@ -1,0 +1,8 @@
+  ace-server:
+    image: ibmcom/ace
+    environment:
+     - LICENSE=accept
+    ports:
+     - 7600:7600
+
+  

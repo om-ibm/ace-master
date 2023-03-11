@@ -1,0 +1,8 @@
+  ace-server:
+    image: cp.icr.io/cp/appc/ace-server-prod@sha256:558e2d74fdd4ea291d56eab1360167294e3385defa7fe1f4701b27dbb6e6bba6
+    environment:
+     - LICENSE=accept
+    ports:
+     - 7600:7600
+
+  
